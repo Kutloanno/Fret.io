@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Create a beautiful retro README.md inside the backup directory to be committed during the git replay",
+  "updatedAt":  "2026-05-27T15:46:13.966346400Z"
+}

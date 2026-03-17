@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 1. Guitar Fretboard Neck Background (Maple wood) -->
+    <path
+        android:fillColor="#D79F67"
+        android:pathData="M46,24h16v60h-16z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#000000" />
+        
+    <!-- 2. Horizontal Fret Lines -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M46,34h16 M46,44h16 M46,54h16 M46,64h16 M46,74h16"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000" />
+
+    <!-- 3. Vertical Guitar Strings -->
+    <!-- Thinner String 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M50,24v60"
+        android:strokeWidth="2"
+        android:strokeColor="#000000" />
+    <!-- Thicker String 2/Low E -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M58,24v60"
+        android:strokeWidth="3.5"
+        android:strokeColor="#000000" />
+
+    <!-- 4. Retro Accent Note Bubble (Miami Pink) -->
+    <path
+        android:fillColor="#F4D3D5"
+        android:pathData="M54,54m-16,0a16,16 0 1,1 32,0a16,16 0 1,1 -32,0"
+        android:strokeWidth="3.5"
+        android:strokeColor="#000000" />
+
+    <!-- 5. Inner Accent Core (Miami Teal) -->
+    <path
+        android:fillColor="#A9DFD8"
+        android:pathData="M54,54m-9,0a9,9 0 1,1 18,0a9,9 0 1,1 -18,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000" />
+
+    <!-- 6. Stylized Vector Eighth Note Centerpiece -->
+    <!-- Note head -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M52,57m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0" />
+    <!-- Stem -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54.5,57v-8"
+        android:strokeWidth="2"
+        android:strokeColor="#000000" />
+    <!-- Flag -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54.5,49q3,0 4.5,2.5"
+        android:strokeWidth="2"
+        android:strokeColor="#000000" />
+</vector>
